@@ -20,6 +20,9 @@ Knowledge:
 *CSS
 *JS
 
+English language:
+#### A2
+
 
 Education: _Belarussian Trade and Economic University_
 
