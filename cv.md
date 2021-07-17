@@ -1,4 +1,4 @@
-
+### RSSchool
 Egor Egorov
 
 Phone number: +375445647988
@@ -21,5 +21,5 @@ Knowledge:
 *JS
 
 
-
+Education: _Belarussian Trade and Economic University_
 
