@@ -1,0 +1,101 @@
+.body{
+    overflow: scroll;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: blanchedalmond;
+}
+
+
+*,
+*:before,
+*:after{
+    box-sizing: border-box;
+}
+
+
+.container{
+    width: 100%;
+    max-width: 1170px;
+    margin: auto;
+}
+
+.header_inner{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.header{
+    font-size: 30px;
+    line-height: 0.9em;
+    background-color: bisque;
+}
+
+.link_side{
+    margin-right: 30px;
+    font-size: 20px;
+    border: none;
+    padding-right: 15px;
+}
+
+.basic_inner{
+    margin-top: 75px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.about_info{
+    width: 50%;
+    margin-right: 30px;
+    font-size: 20px;
+    border: none;
+}
+.code_basic{
+    margin-top: 30px;
+    margin-left: 300px;
+    font-size: 15px;
+    font-style: italic;
+     
+}
+
+
+
+.basic_inner2{
+    margin-top: 75px;
+}
+
+.title_code{
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.know_inner{
+    
+    font-size: 20px;
+    margin-top: 75px;
+    line-height: 1.5em;
+   
+   
+    
+}
+
+.li-lu{
+    font-size: 15px;
+    line-height: 0.9em;
+
+}
+
+.li_info{
+    font-size: 30px;
+    text-align: center;
+}
+
+.footer_content{
+    font-size: 30px;
+    line-height: 0.9em;
+    background-color: rgb(231, 201, 163);
+    text-align: center;
+    
+
+}
+

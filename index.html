@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My resume</title>
+</head>
+<body class="body">
+    <header class="header">
+        <div class="container">
+            <div class="header_inner">
+               
+                    <section>
+                        <h1 font-size: 30px>Egorov Egor</h1>
+                        <p font-size: 15px>Junior Frontend Developer</p>
+                        <nav class="link_side">
+
+                            <a href="https://t.me/Egorka_Egorkovich"><img src="pageTeleg.png" width="50" 
+                                height="50" border: none alt="Link Telegram"></a>
+                                <a href="https://github.com/EgorYR"><img src="pageGit.png" width="50" 
+                                    height="50" border: none alt="Link Telegram"></a>
+                                    <a href="EgorEgorov (_EgorYR)#8713"><img src="pageDisco.png" width="50" 
+                                        height="50" border: none alt="Link Telegram"></a>
+        
+                        </nav>
+                    </section>
+
+                    <div class="header_logo">
+                        <img src="page.png" alt="My Foto" width="240" height="240">
+                    </div>
+
+                    
+                </div>
+            
+            </div>
+
+        </div>
+
+
+
+    </header>
+
+<div class="container">
+
+    <div class="basic_inner">
+
+<article class="about_info">
+    <h4 class="title_info">About me:</h4>
+    <div class="info">A graphic designer is a professional within the graphic design and graphic arts industry who assembles together images, typography, or motion graphics to create a piece of design. A graphic designer creates the graphics primarily for published.</div>
+</article>
+
+<article class="about_info">
+    <h4 class="title_info">Skills</h4>
+    <div class="info">Created physical and prototype designs and functions for websites. Registered official online projects with search engines for optimized website traffic.</div>
+    <div class="info">Backed up files used for official directories and online projects. Responded to email inquiries from clients regarding the progress of their orders.</div>
+</article>
+    </div>
+</div>
+
+<div class="container">
+<section class="basic_inner2">
+    <div class="title_code">
+        <h4>Code</h4>
+
+    </div>
+
+    
+        
+       <pre class="code_basic"> <code>if (!isset($_POST['isbn']) || !isset($_POST['author']) ||
+            !isset($_POST['title']) || !isset($_POST['price']) ||
+            !isset($_POST['quantity'])){
+                die ("Не все данные введены.<br>
+                        Пожалуйста, вернитесь назад и закончите ввод");
+        }
+        $isbn   = trim ( $_POST['isbn'] );
+        $author = trim ( $_POST['author'] );
+        $title  = trim ( $_POST['title'] ) ;
+        $isbn   = addslashes ( $isbn );
+        $author = addslashes ( $author );
+        $title  = addslashes ( $title ) ;
+        $db = "sample";
+        $link = mysql_connect();
+        if ( !$link ) die ("Невозможно подключение к MySQL");
+        mysql_select_db ( $db ) or die ("Невозможно открыть $db");
+        $query = "INSERT INTO books VALUES ('"
+            .$isbn."', '".$author."', '".$title."', '"
+            .floatval($_POST['price'])."',</code></pre>
+
+    </div>
+</section>
+</div>
+
+<div class="container">
+    <div class="know_inner">
+        <article class="li_info">
+        <h3 font-family: Verdana, Geneva, Tahoma, sans-serif;>Knowledge & Experience</h3>
+        </article>
+    </div>
+
+    <div class="know_inner">
+        <ul>
+            <li>Swift [Basic]</li>
+            <li>Java Script</li>
+            <li>Html</li>
+            <li>CSS</li>
+            <li>PHP</li>
+         </ul>
+
+
+    </div>
+    
+</div>
+
+
+<footer class="footer_content">
+    <a href="https://rs.school/js/"><img src="pageRS.png" width="100" 
+        height="100" border: none alt="Logo RSschool"></a>
+
+
+     
+
+
+
+</footer>
+
+
+</body>
+</html>
+   
+ 
