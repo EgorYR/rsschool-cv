@@ -3,6 +3,7 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: rgb(112, 111, 110);
     color: rgb(247, 238, 228);
+    margin: 0 auto;
 }
 
 
@@ -29,7 +30,14 @@
     font-size: 30px;
     line-height: 0.9em;
     background-color: rgb(87, 86, 85);
+
 }
+
+.header_logo{
+    padding: 15px 15px
+}
+
+
 
 .link_side{
     margin-right: 30px;
@@ -40,8 +48,10 @@
 
 .basic_inner{
     margin-top: 75px;
+    width: 100%;
     display: flex;
     justify-content: space-around;
+    padding: 20px 20px
 }
 
 .about_info{
@@ -53,9 +63,10 @@
 }
 .code_basic{
     margin-top: 30px;
-    margin-left: 300px;
+    margin-left: 280px;
     font-size: 15px;
     font-style: italic;
+    
      
 }
 
