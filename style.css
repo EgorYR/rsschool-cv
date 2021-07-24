@@ -1,7 +1,8 @@
 .body{
     overflow: scroll;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: blanchedalmond;
+    background-color: rgb(112, 111, 110);
+    color: rgb(247, 238, 228);
 }
 
 
@@ -27,7 +28,7 @@
 .header{
     font-size: 30px;
     line-height: 0.9em;
-    background-color: bisque;
+    background-color: rgb(87, 86, 85);
 }
 
 .link_side{
@@ -46,6 +47,7 @@
 .about_info{
     width: 50%;
     margin-right: 30px;
+    margin-left: 100px;
     font-size: 20px;
     border: none;
 }
@@ -61,6 +63,7 @@
 
 .basic_inner2{
     margin-top: 75px;
+    padding-left: 50px;
 }
 
 .title_code{
@@ -91,11 +94,16 @@
 }
 
 .footer_content{
-    font-size: 30px;
+    font-size: 15px;
+    margin-top: 75px;
     line-height: 0.9em;
-    background-color: rgb(231, 201, 163);
-    text-align: center;
-    
-
+    background-color: rgb(44, 44, 43);
+    text-align: left;
+    margin: 0 auto;
 }
 
+.data_footer{
+    margin-top: 95px;
+    text-align: end;
+
+}
